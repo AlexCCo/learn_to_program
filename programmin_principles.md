@@ -7,21 +7,8 @@ herramientas que usamos para hacer que el ordenador (computadora) realice
 ciertas tareas.
 
 *¿Qué tipo de tareas puede realizar un computador?*<br>
-Esta pregunta tan sencilla abarca un gran campo de estudio
-que es la ciencias de la computación (Computer Science) y cuya respuesta llevó
-a [Alan Turing](https://es.wikipedia.org/wiki/Alan_Turing) a crear lo que se
-conoce hoy en día como una [Máquina de Turing](https://es.wikipedia.org/wiki/M%C3%A1quina_de_Turing).<br>
-Pero no nos preocupemos ahora por eso, simplemente ten presente que "cualquier"
-tarea repetitiva y aburrida, puede ser transformada en un algoritmo que una
-computadora puede realizar.
-
-**Nota:** Ten presente que se ha puesto entre comillas la palabra *cualquier*.
-Eso es debido a que la computación tiene sus límites y hay problemas que solo
-los seres humanos pueden resolver (de momento).<br>
-Si tienes más curiosidad sobre el tema, te sugiero que investigues acerca de:
-- [Alan Turing](https://es.wikipedia.org/wiki/Alan_Turing)
-- [Noam Chomsky](https://es.wikipedia.org/wiki/Noam_Chomsky)
-- [Teoría de Autómatas](https://es.wikipedia.org/wiki/Teor%C3%ADa_de_aut%C3%B3matas)
+Generalmente hablando, "cualquier" tarea repetitiva y aburrida, puede ser
+transformada en un algoritmo que una computadora puede realizar.
 
 Al final de este documento hay una sección de [Recursos](#Recursos) para tener
 acceso a otras guías, problemas de programación, ideas para proyectos
@@ -31,6 +18,8 @@ personales... etc.
 castellano o en inglés, siendo en inglés la más predominante por lo que es más
 que recomendable que sepas inglés a un buen nivel en los tres campos: lectura,
 escucha y escritura o habla.
+<br>
+<br>
 
 Soy un gran partidiario de la experiencia y de que cada individuo tiene la
 capacidad para realizar cualquier cosa, ya sea aprender a programar, ser médico,
@@ -76,6 +65,7 @@ lánzate, el simple hecho de hacerlo te acerca un paso más a tu objetivo.
 
 ## 1. Programación (Conceptos básicos)
 
+Un
 
 ## Recursos
 
