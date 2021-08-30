@@ -33,7 +33,6 @@ paso más a tu objetivo.
 ## Índice
 
 1. [Programación básica](#1-Programación-básica)
-    - Introduccion al sistema binario
     - Entorno de desarrollo integrado (IDE)
     - Variables
     - Control del flujo
@@ -81,6 +80,43 @@ Generalmente, representamos el sistema binario usando el siguiente conjunto:
 Dentro de este curso no profundizaremos en el [sistema binario](https://es.wikipedia.org/wiki/Sistema_binario) aunque es importante comprender y entender cómo se usa, las
 distintas representaciones que tiene y las distintas operaciones que se
 pueden realizar con él.
+<br>
+<br>
+
+Ahora avanzaremos uno pasos adelante y responderemos a una duda bastante
+importante:<br>
+*¿Cómo hacen los computadores para entender el código que les vamos a dar?*<br>
+La respuesta es bastante sencilla, *no lo entienden*, los computadores solo
+entienden binario ya que han sido creados sobre componentes que solo usan
+binario, por eso debemos de traducirles el código a lo que se denomina [lenguaje máquina](https://es.wikipedia.org/wiki/Lenguaje_de_m%C3%A1quina).
+
+La traducción es un proceso llamado [compilación](https://es.wikipedia.org/wiki/Compilador)
+y casi todos los lenguajes de programación deben pasar por este proceso.
+Existe un método equivalente pero con distintas caracteristicas denominado [interpretación](https://es.wikipedia.org/wiki/Int%C3%A9rprete_(inform%C3%A1tica)).
+<br>
+<br>
+
+
+### Entorno de desarrollo integrado (IDE)
+
+A priori podemos escribir código en cualquier editor de texto, aunque no es 
+eficiente y es un método con el que es fácil cometer errores. Por eso se crean
+editores de texto especializados con herramientas como:
+- Autocompletar código
+- Debugger
+- Simplificación del proceso de ejecución
+- Analizador sintáctico
+- Localizador de referencias
+- Control de versiones simplificado
+- Coloreado de palabras clave
+
+Y muchas más funcionalidades. Por el momento no te sientas agobiado si no
+entiendes la importancia de esos editores especiales, a medida que vayas
+avanzando durante el curso podrás identificar todos los elementos de la lista y
+su importancia.
+
+Hay una infinidad de IDE pero el que usaremos será [Visual Studio Code](https://code.visualstudio.com/) un editor diseñado por Microsoft al cual se le puede
+extender sus funcionalidades por medio de plug-ins.
 
 ## Recursos
 
