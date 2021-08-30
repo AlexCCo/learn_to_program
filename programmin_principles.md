@@ -1,16 +1,14 @@
-# Programación Básica
+# Curso de programación
 
-Aprenderás a programar a un nivel básico y la intención de este documento es
-que aprendas independientemente del lenguaje de programación que vayas a
-usar en un futuro cercano o lejano ya que no son más que unas simples
-herramientas que usamos para hacer que el ordenador (computadora) realice
-ciertas tareas.
+Aprenderás a programar a un nivel básico con independencia del lenguaje de
+programación. Estos lenguajes no son más que unas simples herramientas con las
+que podemos decirle al ordenador (computadora) que realice ciertas tareas.
 
 *¿Qué tipo de tareas puede realizar un computador?*<br>
 Generalmente hablando, "cualquier" tarea repetitiva y aburrida, puede ser
 transformada en un algoritmo que una computadora puede realizar.
 
-Al final de este documento hay una sección de [Recursos](#Recursos) para tener
+Al final de este documento hay una sección de [recursos](#Recursos) para tener
 acceso a otras guías, problemas de programación, ideas para proyectos
 personales... etc.
 
@@ -23,49 +21,66 @@ escucha y escritura o habla.
 
 Soy un gran partidiario de la experiencia y de que cada individuo tiene la
 capacidad para realizar cualquier cosa, ya sea aprender a programar, ser médico,
-matemático, linguista, artista y en fin, lo que sea. Por lo que no tengas miedo
-de enfrentarte a un problema por tus faltas de conocimiento, simplemente
-lánzate, el simple hecho de hacerlo te acerca un paso más a tu objetivo.
+matemático, linguista, artista y demás ramas del conocimiento humano. Por lo
+que no tengas miedo de enfrentarte a un problema por tus faltas de
+conocimiento, simplemente lánzate, el simple hecho de hacerlo te acerca un
+paso más a tu objetivo.
 
-<center><i><b>Ante la adversidad es como evolucionamos</b></i></center>
+<p align="center"><i><b>Ante la adversidad es como evolucionamos</b></i></p>
 
 ---------------------------------------------------------------
 
 ## Índice
 
-1. Programación básica
-  - Entorno de desarrollo integrado (IDE)
-  - Variables
-  - Control del flujo
-    - Condicionales
-    - Bucles
-  - Funciones
-  - Estructuras de datos básicas
-  - Analisis de la eficiencia de un algoritmo
-  - Diseño de algoritmos
-    - Iterativos
-    - Recursivos
-    - Divide y vencerás
-    - Vuelta atrás
-2. Programación avanzada
-  - Estructuras de datos avanzadas
-  - Paradigmas de programación
-3. Control de versiones
-4. Open Source y licencias
-5. Ingeniería del Software
-  - Metodologías de trabajo
-  - Patrones de diseño comunes con paradigma OOP
-6. Sistemas de bases de datos
-  - Relacionales
-  - No relacionales
-7. Redes de comunicación
-8. Sistemas Operativos
-9. Usabilidad y diseño de sistemas interactivos
-10. Frameworks o librerías famosas (opcional)
+1. [Programación básica](#1-Programación-básica)
+    - Introduccion al sistema binario
+    - Entorno de desarrollo integrado (IDE)
+    - Variables
+    - Control del flujo
+      - Condicionales
+      - Bucles
+    - Funciones
+    - Estructuras de datos básicas
+    - Analisis de la eficiencia de un algoritmo
+    - Diseño de algoritmos
+      - Iterativos
+      - Recursivos
+      - Divide y vencerás
+      - Vuelta atrás
+2. [Programación avanzada](#2-Programación-avanzada)
+    - Estructuras de datos avanzadas
+    - Paradigmas de programación
+3. [Control de versiones](#3-Control-de-versiones)
+4. [Open Source y licencias](#4-Open-Source-y-licencias)
+5. [Ingeniería del Software](#5-Ingeniería-del-Software)
+    - Metodologías de trabajo
+    - Patrones de diseño comunes con paradigma OOP
+6. [Sistemas de bases de datos](#6-Sistemas-de-bases-de-datos)
+    - Relacionales
+    - No relacionales
+7. [Redes de comunicación](#7-Redes-de-comunicación)
+8. [Sistemas Operativos](#8-Sistemas-Operativos)
+9. [Usabilidad y diseño de sistemas interactivos](#9-Usabilidad-y-diseño-de-sistemas-interactivos)
+10. [Frameworks o librerías famosas (opcional)](#10-Frameworks-o-librerías-famosas)
 
-## 1. Programación (Conceptos básicos)
+## 1. Programación básica
 
-Un
+Una de las grandes revoluciones del siglo pasado fue la creación del [transitor](https://es.wikipedia.org/wiki/Transistor). Estos dispositivos actúan de una manera
+parecida a los [relés](https://es.wikipedia.org/wiki/Rel%C3%A9), y permiten o
+prohíben el paso de corriente electrica entre otras cosas.<br>
+Estos componentes electrónicos son el corazón de toda la era digital que
+tenemos hoy en día, se pueden hacer muy pequeños y se puede organizar de cierta
+forma para crear otros componentes más complejos y todo ello haciendo uso de
+solamente de dejar pasar o no corriente eléctrica. De tener dos opciones. El
+sistema binario.
+
+Generalmente, representamos el sistema binario usando el siguiente conjunto:
+
+<p align="center"><code>C = {0, 1}</code></p>
+
+Dentro de este curso no profundizaremos en el [sistema binario](https://es.wikipedia.org/wiki/Sistema_binario) aunque es importante comprender y entender cómo se usa, las
+distintas representaciones que tiene y las distintas operaciones que se
+pueden realizar con él.
 
 ## Recursos
 
