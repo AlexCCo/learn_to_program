@@ -74,8 +74,9 @@ solamente de dejar pasar o no corriente eléctrica. De tener dos opciones. El
 sistema binario.
 
 Generalmente, representamos el sistema binario usando el siguiente conjunto:
-
-<p align="center"><code>C = {0, 1}</code></p>
+$$
+C = \{0, 1\}
+$$
 
 Dentro de este curso no profundizaremos en el [sistema binario](https://es.wikipedia.org/wiki/Sistema_binario) aunque es importante comprender y entender cómo se usa, las
 distintas representaciones que tiene y las distintas operaciones que se
