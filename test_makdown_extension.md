@@ -1,8 +1,9 @@
 # Curso de programación
 
-Aprenderás a programar a un nivel básico con independencia del lenguaje de
-programación. Estos lenguajes no son más que unas simples herramientas con las
-que podemos decirle al ordenador (computadora) que realice ciertas tareas.
+Aprenderás a programar a un nivel básico y serás capaz de trasladar tus 
+conocimientos a otros lenguajes de programación. Los lenguajes de programación
+no son más que unas simples herramientas con las que podemos decirle al 
+ordenador (computadora) que realice ciertas tareas.
 
 *¿Qué tipo de tareas puede realizar un computador?*<br>
 Generalmente hablando, "cualquier" tarea repetitiva y aburrida, puede ser
@@ -35,6 +36,8 @@ paso más a tu objetivo.
 - [Curso de programación](#curso-de-programación)
   - [1. Programación básica](#1-programación-básica)
     - [Entorno de desarrollo integrado (IDE)](#entorno-de-desarrollo-integrado-ide)
+    - [Lenguaje de programación inicial](#lenguaje-de-programación-inicial)
+    - [Tipos de datos primitivos](#tipos-de-datos-primitivos)
   - [Recursos](#recursos)
 
 ## 1. Programación básica
@@ -112,8 +115,63 @@ entiendes la importancia de esos editores especiales, a medida que vayas
 avanzando durante el curso podrás identificar todos los elementos de la lista y
 su importancia.
 
-Hay una infinidad de IDE pero el que usaremos será [Visual Studio Code](https://code.visualstudio.com/) un editor diseñado por Microsoft al cual se le puede
-extender sus funcionalidades por medio de plug-ins.
+Hay una infinidad de IDE (Integrated Development Environment) pero el que 
+usaremos será [Visual Studio Code](https://code.visualstudio.com/) un editor
+diseñado por Microsoft al cual se le puede extender sus funcionalidades por 
+medio de Plug-In.
+<br>
+<br>
+
+### Lenguaje de programación inicial
+
+Cuando estamos aprendiendo a usar un tipo de herramienta, siempre debes empezar
+cogiendo una y construir algo con ella. Con los lenguajes de programación no es
+diferente, debemos empezar con un lenguaje para poder aprender a programar.
+
+El lenguaje de programación elegido a lo largo de este documento es [Python](https://www.python.org/) debido a su gran popularidad y su gran uso en la industria, lo que facilita la búsqueda de documentación y de ayuda a la hora de resolver problemas.
+
+El código escrito en python va a ser interpretado por lo que necesitamos de la
+herramienta intérprete.
+<br>
+<br>
+
+### Tipos de datos primitivos
+
+Puesto que la computadora solo trabaja con un sistema binario, es 
+responsabilidad de, tanto los que crean hardware como software, de darle 
+sentido a los 0's y 1's que nos vamos a encontrar.
+
+Darle sentido a una representación como una secuencia en binario y definir 
+operaciones sobre esta representación, da como resultado la creación de lo que
+se denomina [Tipo de datos abstractos](https://es.wikipedia.org/wiki/Tipo_de_dato_abstracto).
+
+En informática tenemos los tipos de datos primitivos, que no son más que tipos de datos abstractos que sirven como base para construir otros tipos de datos más
+complejos.
+
+Estos tipos de datos son (en inglés):
+- **int** o **integer:** Número enteros con signo o sin signo (ejemplo: -3, 0, 
+  98889)
+- **char** o **character:** Caracteres como las letras del abecedario o los 
+  números (los números en esta representación se tratan como símbolos y no se pueden operar con ellos. Ejemplo: 'a', 'b', '10'. Fíjate en el apostrofo)
+- **string:** Secuencia de char (Ejemplo: "hello word", "hola" "esto son 10 euros".
+  Fijate en las dobles comillas)
+- **bool** o **boolean:** En referencia al [Álgebra de Boole](https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole) que, a groso modo, consiste en definir si una  
+  afirmación es cierta o falsa. Por lo que solo tiene dos posibles valores 0 o 1, 
+  cierto o falso, True o False (Dentro de este curso no profundizaremos en el 
+  álgebra de Boole pero es importante que se entiendan bien sus conceptos y cómo 
+  aplicarlos)
+- **float:** Número en [coma flotante](https://es.wikipedia.org/wiki/Coma_flotante) a efectos prácticos, vienen a representar números del conjunto de 
+  los reales (Ejemplo: 0.131, 1.331, 900.55555555)
+
+Estos son los más básicos y cada lenguaje de programación los tiene incorporados de una u otra manera.
+
+Para los que representan números, todos se pueden sumar, restar, multiplicar y 
+dividir como en matemáticas.
+
+El tipo bool o boolean, en el fondo no es más que un número que indica 1 = True, 0 = False por lo que también puedes sumarlos y restarlos pero no tiene mucho sentido hacer eso.
+
+Para los char o string, solo puedes sumarlos y el resultado es la concatenación de ambos operandos. Por ejemplo "abcde" + "hello" = "abcdehello". También puedes concaternarlos con un número de forma que "abcde" + 10 = "abcde10".
+
 
 ## Recursos
 
